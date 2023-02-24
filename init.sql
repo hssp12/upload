@@ -1,4 +1,4 @@
-create user 'scott'@'localhost' identified by 'tiger';
+create user 'scott'@'localhost' identified by '1234';
 grant all privileges on *.* to 'scott'@'localhost';
 flush privileges;
 
